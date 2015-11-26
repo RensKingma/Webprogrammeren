@@ -1,0 +1,41 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="UTF-8" />
+		<title>Puzzel 2.2</title>
+
+		<script>
+
+			
+			function berekenBMI() {
+
+				var gewicht = prompt("Wat is uw gewicht?");
+				var lengte = prompt("Wat is uw lengte in meters?");
+				var BMI = (gewicht)/(lengte*lengte);
+
+				if (BMI > 25) {
+					alert("Uw BMI is "+BMI+" en dus hoger dan 25. U heeft overgewicht")
+				}
+
+				if (BMI <= 25) {
+					alert("Uw BMI is "+BMI+" en dus lager dan 25. U heeft een goed gewicht")
+				}
+
+				if (BMI == 25) {
+					alert("Uw BMI is "+BMI+" . U heeft een goed gewicht")
+				}
+
+		}
+		
+		</script>
+	</head>
+
+	<body>
+		
+		<button onclick="berekenBMI()">Bereken je BMI</button>
+		
+
+	</body>
+
+
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="UTF-8" />
+		<title>Puzzel 2.4</title>
+
+		<script>
+
+			
+			function vergelijkWoorden() {
+				 
+			
+			var w1 = myForm.elements["w1"].value
+			var w2 = myForm.elements["w2"].value
+
+			if (w1.length > w2.length) {
+				alert("Woord 1 is het langste woord met "+w1.length+" tekens.");
+			}
+
+			if (w2.length > w1.length) {
+				alert("Woord 2 is het langste woord met "+w2.length+" tekens.");
+			}
+
+			if (w2.length === w1.length) {
+				alert("Beide woorden zijn even lang!");
+			}
+		}
+		
+		</script>
+	</head>
+
+	<body>
+		<form id="myForm" action="">
+			Woord 1: <input type="text" name="w1"><br>
+			Woord 2: <input type="text" name="w2"><br>
+			<input type="button" value="Vergelijken" onclick="vergelijkWoorden()">
+		</form>
+
+	</body>
+
+
+</html>

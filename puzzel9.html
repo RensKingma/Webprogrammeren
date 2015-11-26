@@ -1,0 +1,36 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="UTF-8" />
+		<title>Puzzel 2.5</title>
+
+		<script>
+
+			
+			function berekenValuta() {
+				var euro = myForm.elements["euro"].value
+				var eurdol = parseInt(euro*1.08)
+				var eurpes = parseInt(euro*18.06)
+				var euryen = parseInt(euro*132.04)
+				var eurpon = parseInt(euro*0.71)
+				var result = document.getElementById("result").innerHTML = "De waarde in Amerikaanse dollar is "+eurdol+" dollar<br/>De waarde in Mexicaanse peso is "+eurpes+" peso<br/>De waarde in Japanse yen is "+euryen+" yen<br/>De waarde in Engelse pond is "+eurpon+" pond<br/>"; 
+			}
+		
+		</script>
+	</head>
+
+	<body>
+		<form id="myForm" action="">
+			Aantal euro's <input type="text" name="euro"><br>
+			
+			<input type="button" value="berekenen" onclick="berekenValuta()">
+			<p id="result"></p>
+		</form>
+
+		
+		
+
+	</body>
+
+
+</html>
