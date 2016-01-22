@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<meta charset="UTF-8">
+	<title>Puzzel 1</title>
+	<script>
+		window.onload = function(){
+
+			var quotes = new Array(
+				"If you hear a voice within you say <i>you cannot paint</i> then by all means paint and that voice will be silenced. -Vincent Van Gogh <br/>",
+				"There is only one way to avoid criticism: do nothing, say nothing, and be nothing. -Aristotle <br/>",
+				"Believe you can and you're halfway there. -Theodore Roosevelt <br/>",
+				"Fall seven times and stand up eight. -Japanese Proverb <br/>",
+				"Everything has beauty, but not everyone can see. -Confucius <br/>",
+				"The best time to plant a tree was 20 years ago. The second best time is now. -Chinese Proverb <br/>"
+				);
+
+			document.write('<b>Hier demonstreer ik de <i>for-loop</i></b><br/>');
+			var i;
+			for (i = 0; i < quotes.length; i++) {
+				document.write(quotes[i]);
+			}
+
+			document.write('<b><br/>Hier demonstreer ik de <i>while-loop</i></b><br/>');
+			var i = 0;
+			var text = "";
+			while (quotes[i]) {
+				text += quotes[i];
+
+				i++;
+				document.write(quotes[i]);
+			}
+
+			document.write('<b><br/>Hier is de random quote van de dag</b><br/>');
+			var quote = quotes[Math.floor(Math.random()*quotes.length)];
+			document.write(quote);
+
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>

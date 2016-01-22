@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<meta charset="UTF-8">
+	<title>Puzzel 13</title>
+	<script>
+		$(document).ready(function(){
+			
+			$('#button').click(function(){
+				
+				var i;
+				var cijfer = new Array();
+				cijfer[0] = "8", 10;
+				cijfer[1] = "6", 10;
+				cijfer[2] = "7", 10;
+				cijfer[3] = "6", 10;
+				cijfer[4] = "6.5", 10;
+				cijfer[5] = "7.5", 50;
+				var sum = 0;
+				for( var i = 0; i < cijfer.length; i++ ){
+				    sum += parseInt( cijfer[i], 10 ); 
+				}
+				var avg = sum/cijfer.length;
+				$('#field').text(" Het gemiddelde is " + avg );
+			});
+		});
+		
+	</script>
+</head>
+<body>
+
+	<button id="button">Geef het eindcijfer</button><br>
+	<p id="field"></p>
+</body>
+</html>
