@@ -1,0 +1,50 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="UTF-8" />
+		<title>registratie</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		
+		<script type="text/javascript" src="js/java.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		
+	</head>
+
+	<body>
+		<div id="titel">
+			<img src="images/faceflix_logo1.jpg" alt="logo">
+		</div>
+
+		<div id="inlog">
+
+		<p class="registratie"> Registratie </p>
+
+		<form id="form1" runat="server">
+			Voornaam: <br> <input  type="text" name="voornaam" value=""><br><br>
+			Achternaam: <br> <input  type="text" name="achternaam" value=""><br><br>
+			Gebruikersnaam: <br><input type="text" name="reggn" id="reggn" value=""><br><br>
+			Wachtwoord: <br><input type="password" name="regww" value=""><br><br>
+			Bevestig wachtwoord: <br><input type="password" name="bevww" value=""><br><br>
+       	 	Je profielfoto: <input type='file' id="propic"/>
+			<img id="pf" src="#" alt="your image" />
+    	</form>
+    	<br>
+
+    	<div id="bericht"></div>
+
+		<button class="butreg" onclick="registreren()" >Registreren</button>
+
+		<p class="inloggen"> Heb je al een account? klik <a href="inlogscherm.html" alt="inloggen">hier</a> om in te loggen! </p>
+
+		<div id="bericht"></div>
+	</div>
+		
+		
+
+	</body>
+
+
+</html>

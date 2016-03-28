@@ -1,0 +1,753 @@
+body {
+	background-color: #f00
+}
+
+/* Inloggen */
+
+#titel {
+	text-align: center;
+
+}
+
+#inlog {
+
+	padding-left: 20px;
+	padding-top: 20px;
+	background-color: #850000;
+	margin:  0 auto; 
+	height: auto;
+	text-align: center;
+	width: 300px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+}
+
+#myForm {
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	color: #fff
+
+}
+
+#bericht{
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #ff6700;
+	font-weight: bold;
+	
+	
+}
+
+.but {
+	margin:0 auto;
+    display:block;
+}
+
+p.registreren {
+	color: #fff;
+	text-align: center;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+
+
+
+/* Registreren */
+
+p.registratie {
+	color: #fff;
+	text-align: center;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: -20px;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 2px black;
+
+}
+
+#form1 {
+	margin: 0 auto;
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+
+}
+
+#pf {
+	width: 150px;
+	border-radius: 75px;
+}
+
+p.inloggen {
+	color: #fff;
+	text-align: center;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+
+
+
+
+/* Timeline */
+
+
+
+#header-wrap {
+    background: #eeeeff;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    margin-left: -8px;
+    top: 0;
+    background-color: #850000;
+    z-index: 1;
+}
+
+#headerlogo{
+	margin-left: 50px;
+}
+
+#headertekst{
+	margin-bottom: 22.5px;
+	margin-top: 20px;
+	margin-right: 50px;
+	float: right;
+}
+
+#container{
+	height: 100%;
+	width: 100%;
+}
+
+#container2{
+	width: 1239px;
+	height: 287px;
+	margin-left: 277px;
+	float: left;
+	
+}
+
+#profiel{
+	height: 400px;
+	width: 250px;
+	margin-top: 4px;
+	background-color: #850000;
+	float: right;
+	border-top: 4px solid #000000;
+	border-right: 4px solid #000000;
+	border-bottom: 4px solid #000000;
+	border-left: 4px solid #000000;
+
+}
+
+#profiel2{
+	height: 400px;
+	width: 250px;
+	margin-top: 291px;
+	background-color: #850000;
+	float: right;
+	border-top: 4px solid #000000;
+	border-right: 4px solid #000000;
+	border-bottom: 4px solid #000000;
+	border-left: 4px solid #000000;
+}
+
+#profiel2 p{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+#profiel2 a{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+
+}
+
+#tijdlijnsection { 
+     float: left; 
+     width: 600px;
+     margin-left: 402px;
+     margin-top: 4px;
+     background-color: #cccccc; 
+     border-left: 1px #eee solid; 
+     border-right: 1px #eee solid; 
+} 
+
+.tijdlijn { 
+     background: #f3f5f6; 
+     float: left; 
+     position: relative; 
+     width: 600px; 
+} 
+
+
+.tijdlijn .tijdlijn-top { 
+     padding: 15px 0; 
+     border-bottom: 1px #000000 solid; 
+      
+     top: 0px; 
+     left: 0; 
+     right: 0; 
+     background-color: #850000;
+} 
+
+.tijdlijn .tijdlijn-top p{
+	text-transform: uppercase; 
+	font-weight: bold;
+	font-family: "Helvetica", "Arial", sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+
+}
+
+
+
+#add-post{
+	margin-top: -65px;
+	float: left;
+}
+
+.verwijder{
+	margin-left: 400px;
+}
+
+.timeline-post img{
+	float:left;
+	margin-left: -30px;
+}
+
+.timeline-post h3{
+	margin-left: 30px;
+	line-height: 1;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+
+.timeline-post p{
+	margin-left: 30px;
+}
+
+.likeButton {
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.likeButton.current, .reagerenButton.current {
+    color: #6bb3e1!important;
+}
+
+.reagerenButton {
+	cursor: pointer;
+	padding-left: 10px;
+}
+
+.likeField{
+    display: block;
+    
+    width: 100%;
+    padding: 1em 1em;
+    background: #850000;
+    border-radius: 3px;
+    border: 1px #eee solid;
+    box-shadow: 0 1px #EAEAEA;
+    margin-bottom: 5px;
+}
+
+.reagerenField{
+	display: block;
+}
+
+#alpacafoto{
+	float: right;
+	width: 100px;
+	position: relative;
+	top: -50px;
+}
+
+.timeline .timeline-post .reagerenField img {
+    width: 30px;
+}
+
+
+.reagerenField textarea {
+    width: 92%;
+    margin: 0;
+    padding: 8px 10px;
+    line-height: 1;
+    border-radius: 3px;
+    float: left;
+}
+
+#covertemplate{
+	margin-top: 62px;
+	border-bottom: 4px solid #000000;
+	border-right: 4px solid #000000;
+
+}
+
+.menu {
+  background: #850000; 
+  height: 100%;
+  margin-top: 62px;
+  margin-left: -8px;
+  position: fixed;
+  width: 285px;
+}
+
+#active{
+	background-color: #ff0000;
+}
+
+
+.menu ul {	
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#profielfoto{
+	margin-left: 75px;
+	margin-right: 75px;
+	margin-top: 25px;
+}
+
+#profiel p{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+#profiel a{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+
+}
+
+#message{
+	margin-top: 70px;
+	
+}
+
+#add{
+	display: block;
+	
+	margin-bottom: 3px;
+
+	background: #850000; 
+     border: 1px solid #DE7734; 
+     margin-top: 10px; 
+     padding: 16px 23px; 
+     color: #fff; 
+     border-radius: 3px; 
+     font-size: 15px; 
+     outline: none; 
+     overflow: hidden; 
+     text-overflow: ellipsis; 
+     white-space: nowrap; 
+     -webkit-appearance: none; 
+     cursor: pointer; 
+
+}
+
+#addPost{
+	margin-left: 700px;
+}
+
+
+
+
+.BorderR{
+	border-color: #F00;
+}
+
+
+
+
+
+article {
+	background: #f00;
+	width: 500px;
+	height: auto;
+	padding: 5px 30px;
+	margin: 10px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #fff;
+	
+}
+
+
+
+.counter {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10px;
+  
+}
+
+
+
+.menuvriendenlijst{
+	background: #850000; 
+  height: 100%;
+  margin-top: 54px;
+  margin-left: -8px;
+  position: fixed;
+  width: 285px;
+}
+
+.menuvriendenlijst ul {	
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.menuvriendenlijst li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menuvriendenlijst a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+#vriendenlijstsection{
+	float: left; 
+     width: 800px;
+     margin-left: 402px;
+     margin-top: 50px;
+     background-color: #cccccc; 
+     border-left: 1px #eee solid; 
+     border-right: 1px #eee solid; 
+}
+
+.vriendenlijst { 
+     background: #f3f5f6; 
+     float: left; 
+     position: relative; 
+     width: 800px; 
+} 
+
+
+.vriendenlijst .vriendenlijst-top { 
+     padding: 15px 0; 
+     border-bottom: 1px #000000 solid; 
+      
+     top: 0px; 
+     left: 0; 
+     right: 0; 
+     background-color: #850000;
+} 
+
+.vriendenlijst .vriendenlijst-top p{
+	text-transform: uppercase; 
+	font-weight: bold;
+	font-family: "Helvetica", "Arial", sans-serif;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+
+}
+
+#vrienden {
+	width: 398px;
+	height: 1000px;
+	border-right: 2px solid #000;
+	float: left;
+
+}
+
+#vrienden ul {	
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  text-align: center;
+  list-style: none;
+ 
+}
+
+#vrienden li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  list-style: none;
+  
+}
+
+#vrienden p{
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	
+}
+
+#vrienden img{
+	float: left;
+	margin-top: 20px;
+}
+
+#potentiele-vrienden {
+	width: 398px;
+	height: 1200px;
+	border-left: 2px solid #000;
+	float: right;
+}
+
+#potentiele-vrienden ul {	
+  border-top: 1px solid #636366;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 100px;
+  text-align: center;
+  list-style: none;
+ 
+}
+
+#potentiele-vrienden li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+  list-style: none;
+  
+}
+
+#potentiele-vrienden p{
+	
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+}
+
+#potentiele-vrienden img{
+	float: left;
+	margin-top: 20px;
+}
+
+.voegvriendtoe{
+	float: right;
+	position: relative;
+	top: -55px;
+	margin-right: 15px;
+}
+
+.vriend-toevoeg{
+	float: right;
+	position: relative;
+	top: -55px;
+	margin-right: 15px;
+}
+
+.vriend-verwijder1{
+	float: right;
+	position: relative;
+	top: -55px;
+	margin-right: 15px;
+}
+
+.vriend-verwijder2{
+	float: right;
+	position: relative;
+	top: -55px;
+	margin-right: 15px;
+}
+
+ .white-popup strong { 
+     font-weight: 500; 
+ } 
+ 
+ .white-popup p { 
+     font-weight: 500; 
+     line-height: 1; 
+     margin-bottom: 1em; 
+ } 
+ 
+ 
+ #vriend1-popup img{
+
+	-webkit-border-radius: 50px; 
+     -moz-border-radius: 50px; 
+     border-radius: 50px; 
+     margin-bottom: 1.25em;
+ 	} 
+
+ 	#vriend2-popup img { 
+     -webkit-border-radius: 50px; 
+     -moz-border-radius: 50px; 
+     border-radius: 50px; 
+     margin-bottom: 1.25em; 
+ }
+
+#lijstvanvrienden{
+	cursor: pointer;
+}
+
+#li1{
+	background-color: #ddd;
+}
+
+
+.messageleft { 
+     background: #6bb3e1; 
+     color: #fff; 
+     width: 175px; 
+     margin: 1em 17% 0 3%; 
+     padding: 25px; 
+     -webkit-border-radius: 10px; 
+     -moz-border-radius: 10px; 
+     border-radius: 10px; 
+ } 
+
+.messageright {
+	 background: #6be171; 
+     color: #fff; 
+     width: 175px; 
+     margin: 1em 3% 0 17%; 
+     padding: 25px 75px 25px 25px; 
+     -webkit-border-radius: 10px; 
+     -moz-border-radius: 10px; 
+     border-radius: 10px; 
+     position: relative; 
+ } 
+
+.messageright article { 
+     background: #6be171; 
+     color: #fff; 
+     width: 175px; 
+     margin: 1em 3% 0 17%; 
+     padding: 25px 75px 25px 25px; 
+     -webkit-border-radius: 10px; 
+     -moz-border-radius: 10px; 
+     border-radius: 10px; 
+     position: relative; 
+ } 
+
+#convo {
+	width: 398px;
+	height: 1000px;
+	border-left: 2px solid #000;
+	float: right;
+}
+
+
+ 
+
+.typbericht textarea {
+	width: 40%;
+	float: right;
+	position: relative;
+	top: -100px;
+     
+
+}
+
+
+
+#errorTimeline { 
+     margin-top: -60px; 
+     padding: 1em 25px; 
+     font-family: "Helvetica", "Arial", sans-serif;
+     font-weight: bold;
+     font-size: 20px;
+     float: right; 
+     color: #f9873d; 
+ } 
+
+ #addMessageButton{
+display: block;
+	position: relative;
+	top:-60px;
+	right: -700px;
+	margin-bottom: 3px;
+
+	background: #850000; 
+     border: 1px solid #DE7734; 
+     margin-top: 10px; 
+     padding: 16px 23px; 
+     color: #fff; 
+     border-radius: 3px; 
+     font-size: 15px; 
+     outline: none; 
+     overflow: hidden; 
+     text-overflow: ellipsis; 
+     white-space: nowrap; 
+     -webkit-appearance: none; 
+     cursor: pointer; 
+ }
+
+
+#geplaatstberichtje{
+	 background: #6be171; 
+     color: #fff; 
+     width: 175px; 
+     margin: 1em 3% 0 17%; 
+     padding: 25px 75px 25px 25px; 
+     -webkit-border-radius: 10px; 
+     -moz-border-radius: 10px; 
+     border-radius: 10px; 
+     position: relative; 
+ } 

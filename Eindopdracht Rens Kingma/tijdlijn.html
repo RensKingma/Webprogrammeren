@@ -1,0 +1,145 @@
+<!doctype html>
+<html> 
+	<head>
+		<meta charset="UTF-8" />
+		<title>tijdlijn!</title>
+
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+		
+		<script type="text/javascript" src="js/java.js"></script>
+
+		<link href="css/lightbox.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+		
+	</head>
+
+	<body>
+
+		<div id="header-wrap">
+		    <img src="images/faceflix_logo_donker.jpg" id="headerlogo" alt="header logo">
+
+		    <img src="images/series_kijken.jpg" id="headertekst" alt="header tekst">
+		</div>
+
+		<div id="container">
+
+			<div class="menu">
+      
+      	
+     		 <ul>
+     		 	<li><a href="#">Welkom Rens Kingma</a></li>
+      		  <div id="active"><li><a href="#" >Home</a></li></div>
+     		   <div id="vriendenlijst"><li><a href="vriendenlijst.html">Vriendenlijst</a></li></div>
+     		   <div id="berichten"><li><a href="berichten.html">Berichten</a></li></div>
+     		   <li><a href="inlogscherm.html">Uitloggen</a></li>
+     		   
+     		 </ul>
+    		</div>
+
+    		<div id="container2">
+
+    			<div id="covercontainer">
+    			<img src="images/cover_photo_template.jpg" id="covertemplate" alt="standaard cover">
+    			<img id="coverphoto" src="#" alt="your image" />
+
+
+    		</div>
+    		<input id="cover" type="file" name="cover" style="visibility: hidden;" />
+    		
+    		</div>
+
+    		<div id="profiel">
+    			<img src="images/user_male.jpg" id="profielfoto" alt="profielfoto">
+    			<p>Rens Kingma</p>
+    			<a href="inlogscherm.html">Uitloggen</a>
+    		</div>
+
+    		<section id="tijdlijnsection"> 
+ 			<div class="tijdlijn"> 
+ 				<div class="tijdlijn-top"> 
+ 					<p>T I M E L I N E</p>
+ 				</div> 
+
+ 				
+			<div id="add-post">
+		<textarea rows="4" cols="60" id="message" placeholder="Vertel iets leuks!"></textarea>
+
+		<div class="addPost">
+			<p class="counter">200 tekens</p>
+			<button id="add">Post</button>
+		</div>
+		<div id="timeline">
+			<article><div class="timeline-post"> 
+						<img src="images/user_female_klein.jpg" alt=""> 
+ 						<h3>Laura de Vries</h3> 
+ 						<p>Pfffff wat een dag weer vandaag...</p> 
+ 						<span><a class="likeButton">Vind ik leuk</a><a class="reagerenButton">Reageren</a></span> 
+ 						<div class="likeField" style="display:none;"><a href="">Rens Kingma</a> vindt dit leuk.</div> 
+ 						<div class="reagerenField" style="display:none;"> 
+ 							
+ 							<img src="images/user_male_klein.jpg" alt=""> 
+ 							<textarea type="text" class="addCommentOnPost" name="add-posts" placeholder="Schrijf een reactie..."></textarea> 
+ 						</div> </div></article>
+
+ 						<article><div class="timeline-post"> 
+						<img src="images/user_male_klein.jpg" alt=""> 
+ 						<h3>Joep Joepsma</h3> 
+ 						<p>Zware dag gehad op school vandaag.. #haataanwiskunde</p> 
+ 						<span><a class="likeButton">Vind ik leuk</a><a class="reagerenButton">Reageren</a></span> 
+ 						<div class="likeField" style="display:none;"><a href="">Rens Kingma</a> vindt dit leuk.</div> 
+ 						<div class="reagerenField" style="display:none;"> 
+ 							
+ 							<img src="images/user_male_klein.jpg" alt=""> 
+ 							<textarea type="text" class="addCommentOnPost" name="add-posts" placeholder="Schrijf een reactie..."></textarea> 
+ 						</div> </div></article>
+
+ 						<article><div class="timeline-post"> 
+						<img src="images/user_male_klein.jpg" alt=""> 
+ 						<h3>Henk de Vries</h3> 
+ 						<p>Zooo zie deze vette alpaca dan! <a href="images/alpaca.jpg" data-lightbox="henk" data-title="Alpaca"><img src="images/alpaca.jpg" id="alpacafoto" alt="alpaca"></a> </p> 
+ 						<span><a class="likeButton">Vind ik leuk</a><a class="reagerenButton">Reageren</a></span> 
+ 						<div class="likeField" style="display:none;"><a href="">Rens Kingma</a> vindt dit leuk.</div> 
+ 						<div class="reagerenField" style="display:none;"> 
+ 							
+ 							<img src="images/user_male_klein.jpg" alt=""> 
+ 							<textarea type="text" class="addCommentOnPost" name="add-posts" placeholder="Schrijf een reactie..."></textarea> 
+ 						</div></div> </article>
+
+ 						<article><div class="timeline-post"> 
+						<img src="images/user_female_klein.jpg" alt=""> 
+ 						<h3>Saartje Jorritsberg</h3> 
+ 						<p>YESSSS!!! 2-0 gewonnen en dus kampioen!!!</p> 
+ 						<span><a class="likeButton">Vind ik leuk</a><a class="reagerenButton">Reageren</a></span> 
+ 						<div class="likeField" style="display:none;"><a href="">Rens Kingma</a> vindt dit leuk.</div> 
+ 						<div class="reagerenField" style="display:none;"> 
+ 							
+ 							<img src="images/user_male_klein.jpg" alt=""> 
+ 							<textarea type="text" class="addCommentOnPost" name="add-posts" placeholder="Schrijf een reactie..."></textarea> 
+ 						</div></div> </article>
+
+ 						<article><div class="timeline-post"> 
+						<img src="images/user_male_klein.jpg" alt=""> 
+ 						<h3>Freek-Joost de Boone</h3> 
+ 						<p>Shit... m'n John Deere trekker doet 't niet meer.. poah..</p> 
+ 						<span><a class="likeButton">Vind ik leuk</a><a class="reagerenButton">Reageren</a></span> 
+ 						<div class="likeField" style="display:none;"><a href="">Rens Kingma</a> vindt dit leuk.</div> 
+ 						<div class="reagerenField" style="display:none;"> 
+ 							
+ 							<img src="images/user_male_klein.jpg" alt=""> 
+ 							<textarea type="text" class="addCommentOnPost" name="add-posts" placeholder="Schrijf een reactie..."></textarea> 
+ 						</div></div> </article>
+
+			</div>
+		</div>
+	</section>
+	</div> 
+		<script src="js/lightbox.js"></script>
+	</body>
+
+
+
+
+</html>
